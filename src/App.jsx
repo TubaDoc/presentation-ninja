@@ -1,0 +1,1 @@
+const callGeminiAPI = async (prompt, schema = null) => { const resp = await fetch('/.netlify/functions/gemini', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ prompt, schema }) }); const json = await resp.json(); if (!resp.ok) throw new Error(json.error || 'Gemini function error'); return json.data; };

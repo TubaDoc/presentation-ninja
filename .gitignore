@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Local environment & secrets
+.env
+.env.*
+!.env.example
+
+# Local overrides
+*.local
+
+# Editor / IDE settings
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS / system files
+.DS_Store
+Thumbs.db
+
+# Visual Studio / MS tooling (harmless if not used)
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# (Optional) coverage and test output (uncomment if you add tests)
+# coverage/
+# .nyc_output/
